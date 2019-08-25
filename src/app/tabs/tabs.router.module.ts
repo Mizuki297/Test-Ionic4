@@ -1,9 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
-import { MovieListPageModule } from '../pages/movies/movie-list/movie-list.module';
-import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
-
 const routes: Routes = [
   {
     path: 'tabs',
